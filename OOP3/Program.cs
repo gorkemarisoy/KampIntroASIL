@@ -1,7 +1,8 @@
-﻿using System;
+﻿ using System;
 using System.Collections.Generic;
+ using System.Drawing;
 
-namespace OOP3
+ namespace OOP3
 {
     class Program
     {
@@ -27,5 +28,6 @@ namespace OOP3
             List<ICreditManager> credits = new List<ICreditManager>() {requirenceCreditManager, vehicleCreditManager}; //kredi karşılaştırması için seçilen krediler listesi {} içine yazılır
             applicationManager.CreditPreInformation(credits);
         }
+
     }
 }
